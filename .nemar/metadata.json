@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004554",
-  "source": "openneuro",
-  "source_id": "ds004554",
+  "pipeline_stage": "validated",
   "title": "Forced Picture Naming Task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "V. Volpert": {},
     "B. Xu": {},
@@ -12,21 +12,69 @@
     "A. Aksenov": {},
     "Q. Mesnildrey and A. Beuter": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004554.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.3934/mbe.2023507",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004554",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004554",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".pdf",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises preprocessed EEG recordings from 16 native French-speaking participants performing a forced picture naming task. Of 20 subjects initially enrolled, 4 were excluded due to hardware failure. Participants viewed images from the Snodgrass & Vanderwart corpus and were required to name them aloud, with data collected across baseline, visual stimulation, and naming phases. The dataset was used to characterize spatiotemporal dynamics in EEG signals during picture naming using optical flow pattern analysis.",
+  "methods_description": "EEG data were collected from 16 right-handed participants (age 18-70 years) during a picture naming task consisting of 270 trials per subject. Of 20 subjects initially enrolled, 4 were excluded due to hardware failure. Each trial included a baseline phase (−2 to 0 s), visual stimulation phase (0 to 1.5 s), and naming phase (1.5 to 3 s). Stimuli were black-and-white line drawings from the Snodgrass & Vanderwart corpus. Data were preprocessed according to a standardized pipeline (detailed in code/preprocess_pipeline.pdf).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "picture naming"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "language production"
+    },
+    {
+      "term": "optical flow"
+    },
+    {
+      "term": "Snodgrass & Vanderwart"
+    },
+    {
+      "term": "French speakers"
+    }
+  ],
+  "source_hash": "7156ceda0879ae6f44a0056f5202cd891e3506a8fddb62f51d319836aa90b9b4"
 }
