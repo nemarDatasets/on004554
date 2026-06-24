@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004554-blue)](https://doi.org/10.82901/nemar.on004554)
+
 This is the preprocessed dataset used for study "Characterization of spatiotemporal dynamics in EEG data during picture naming with optical flow patterns". 
 
 The Picture Naming Task study included sixteen native French-speaking men, ranging in age from 18 to 70 years old. The participants met the inclusion criteria, which required normal or corrected-to-normal vision and hearing, as well as right-handedness, as determined by a handedness questionnaire [Oldfield1971assessment]. Exclusion criteria were in place to ensure that participants had no history of neurological or psychiatric disorders, drug addiction, or head trauma. In total 20 subjects were included in the study. The four first subjects' data was excluded due to hardware failure. 
